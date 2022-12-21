@@ -1,0 +1,150 @@
+.pageLayOut{
+    
+   height:80%;
+   overflow: hidden;
+   position: relative;   
+}
+body{
+    background-color: beige;
+}
+/* .btn
+{
+    font-size: large;
+    background-color: #aaaa;
+    color:white;
+    margin-top:2rem;
+    cursor:pointer;
+    border:none;
+    padding:1rem;
+} */
+.form
+{ 
+    position: absolute;
+    width:100%;
+    transition: transform 1s;
+   padding-top:4%;
+  }
+.inputFirst{
+    border:1px solid black;
+    width:50%;
+    font-size:xx-large;
+
+}
+.inputSEcond{
+    width:80%;
+    font-size:xx-large
+}
+.dots
+{
+    width:15px;
+    height: 15px;
+    border-radius:50%;
+    background-color: rgba(114, 108, 108, 0.9);
+    display:inline-block;
+    text-align: center;
+}
+.nextBtn
+{
+    font-size: larger;
+    background-color: rgb(107, 189, 118);
+    color:white;
+    border-radius: 10%;
+    margin-top:2%;
+    cursor: pointer;
+    border: none;
+    transform: translate(30%, -30%);
+    margin-left: 60%;
+    font-size: xx-large
+
+    
+}
+.nextBtn:hover
+{
+    background-color: rgba(107, 189, 118,0.7); 
+}
+.hidButn
+{
+    font-size: larger;
+    background-color: rgb(107, 189, 118);
+    color:white;
+    border-radius: 10%;
+    margin-top:2%;
+    cursor: pointer;
+    border: none;
+    transform: translate(50%, -50%);
+    margin-left: 60%;
+    display: none;
+    margin-top:7%;
+    font-size: larger;
+ 
+}
+.hidBtyn
+{
+    font-size: larger;
+    background-color: rgb(107, 189, 118);
+    color:white;
+    border-radius: 10%;
+    margin-top:2%;
+    cursor: pointer;
+    border: none;
+    transform: translate(50%, -50%);
+    margin-left: 60%;
+    display: none;  
+    font-size: xx-large;
+}
+.hidBtnEd
+{
+    font-size: larger;
+    background-color: rgb(107, 189, 118);
+    color:white;
+    border-radius: 10%;
+    margin-top:2%;
+    cursor: pointer;
+    border: none;
+    transform: translate(50%, -50%);
+    margin-left: 60%;
+    display: none;  
+    font-size: xx-large;
+}
+.innerLayOut
+{
+    background-color: white;
+    border:1px solid black;
+    padding-bottom:4%;
+    width:40%;
+    margin-left:22%;
+    padding:3% 
+   
+}
+
+.name
+{
+    background-color: white;;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+  height:1200px;
+    overflow: scroll;
+    padding-left:2%;
+    
+
+}
+.photo
+{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+}
+img{
+    border-radius: 50%;
+}
+input{
+    background-color:ghostwhite
+}
+.p1
+{
+    display: flex;
+
+}

@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="multi.css">
+     
+    </head>
+    <body>
+        <div class="pageLayOut">
+            <div class="form" > 
+              
+                <form style="padding: 2%;">
+                    <div class='innerLayOut'> 
+                    <label for="fistName"><h4 style="margin-left:12% ;">Name</h4></label>
+                    <input style="margin-left:12%" class="inputFirst" required id="firstName" type="text" placeholder=" First Name..."><br><br>
+                 
+                    <input  style="margin-left:12%" class="inputFirst" id="lastName" type="text" placeholder="Last Name...">
+                
+                </div>
+                </form>
+
+
+               
+            </div>
+            <div class="form ">
+                <form style="padding: 2%"  id="secondPG">
+                    <div class='innerLayOut'> 
+                   <label><h4>Sex</h4></label>
+                   <input type="radio" id="male" name="sex" value="Male">
+                   <label for="male">Male</label>
+                   <input type="radio" id="fmale" name="sex" value="Female">
+                   <label for="female">Female</label>
+                   <input type="radio" id="others" name="sex" value="others">
+                   <label for="others">Others</label><br><br>
+                   <label><h4>Applying for</h4></label>
+                   <input type="radio" id="job1" name="job" value="front end">
+                   <label for="front">Front End</label>
+                   <input type="radio" id="job2" name="job" value="Back end">
+                   <label for="back">Back End</label>
+                   <input type="radio" id="job3" name="job" value="Full stack">
+                   <label for="full">Full Stack</label>
+                   </div>
+                </form>
+            </div>
+            <div class="form" >
+                <form style="padding: 1%">
+                    <div class='innerLayOut'> 
+                    <label><h4>Education Details</h4></label>
+                    <!-- <select>
+                        <option>Education detail</option>
+                        <option id="edu1" name="educ" value="Diplamo">Diplamo</option>
+                          <option id="edu2" name="educ" value="Under Graduated">UG</option>
+                          <option id="edu3" name="educ" value="Post Graduate"> PG</option>
+                          <option id="edu4" name="educ" value="others">Others</option>
+                      </select> -->
+                      <input type="radio" id="edu1" name="educ" value="under graduate">
+                      <label for="front">UG</label>
+                      <input type="radio" id="edu2" name="edu1" value="post geaduate">
+                      <label for="back">PG</label>
+                      <input type="radio" id="edu3" name="edu1" value="diplamo">
+                      <label for="full">Diplamo</label>
+                      <br><br>
+                    <label>Please insert your resume</label><br><br>
+                    <input type="file"><br><br>
+                    </div>
+                </form>
+            </div>
+            <div class="form">
+                <form>
+                    <div class='innerLayOut'> 
+                    <label> <h4>Contact Details</h4></label>
+                    <input class="inputSecond" type="text" id="phNumber" placeholder="Phone Number..."><br><br>
+                    <input class="inputSecond" type="email" id="email" placeholder="E-Mail..."><br><br>
+                    <input class="inputSecond" type="text" id="addre" placeholder="Address..."> 
+                    </div>
+                </form>
+                <!-- <button style="margin-left:50%" onclick="next()" class="nextBtn">NEXT</button> -->
+            </div>
+            <div class="form">
+              <div class="name">
+                  <h3 style="text-align: center;"> Candidate Details</h3>
+                  <div class="photo">
+                      <img src="https://png.pngtree.com/png-clipart/20190917/original/pngtree-little-boy-in-office-png-image_4600257.jpg">
+                  </div>
+            <div class="p1" >
+                <p  style="padding-right: 7%;" id='p'></p>
+                <p id='ln'></p>
+            </div>
+            <div class="p1">
+                 <p style="padding-right: 5%;"id='pn'></p>
+                 <p id='em'></p>
+                 </div>
+                 <div class="p1">
+                 <p style="padding-right: 10%;"id="gender"></p>
+                 <p   id='ads'></p>
+                 </div>
+                 <div class="p1">
+                 <p style="padding-right: 5%;"  id='jb'></p>
+                 <p id="qual"></p>
+                 </div>
+              
+                 
+                  
+              </div>
+            </div>  <br><br><br><br>  <br><br><br><br><br><br><br><br><br><br>
+        
+               <!-- <button class="nextBtn" onclick="nextHandler()" > next</button>  -->
+               <button class="nextBtn hideBtn  " onclick="first()" >-> </button>
+              <button class="nextBtn hidBtyn "onclick='three()' >-></button>
+              <button class="nextBtn hidBtnEd "onclick='four()' >-></button> 
+              <button class= "nextBtn hidButn" onclick="submit()">Submit</button>
+ </div>
+       
+       
+    </body>
+    <script src="multi.js">
+        
+    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</html>
